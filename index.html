@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinaya R | Portfolio</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --muted: #555555;
+            --border: #e0e0e0;
+            --link: #00449e;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #121212;
+                --text: #e0e0e0;
+                --muted: #a0a0a0;
+                --border: #2a2a2a;
+                --link: #64b5f6;
+            }
+        }
+
+        body {
+            max-width: 680px;
+            margin: 40px auto;
+            padding: 0 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+        }
+
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            margin: 0 0 8px 0;
+            letter-spacing: -0.02em;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 36px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 4px;
+        }
+
+        .contact-line {
+            color: var(--muted);
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        .contact-line a {
+            color: var(--link);
+            text-decoration: none;
+        }
+
+        .contact-line a:hover {
+            text-decoration: underline;
+        }
+
+        .item {
+            margin-bottom: 20px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .subtext {
+            color: var(--muted);
+            font-size: 0.92rem;
+            margin-bottom: 6px;
+        }
+
+        ul {
+            margin: 6px 0 0 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Abinaya R</h1>
+        <p class="contact-line">
+            Chennai, India ·
+            <a href="mailto:abinaya.r.jayarani@gmail.com">abinaya.r.jayarani@gmail.com</a> ·
+            +91 8248406887 ·
+            <a href="https://www.linkedin.com/in/abinaya-r-b03b50301" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+    </header>
+
+    <section>
+        <h2>About</h2>
+        <p>
+            Aspiring biotechnology student with technical training across molecular biology, bioprocessing, and
+            regulatory-aligned disciplines. Experienced in wet-lab workflows, quality testing, and regulatory frameworks
+            including USFDA, EMA, and CDSCO.
+        </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Rajalakshmi Engineering College, Chennai</span>
+                <span>CGPA: 8.25 / 10</span>
+            </div>
+            <div class="subtext">B.Tech in Biotechnology</div>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <span>Velammal Vidyalaya, Chennai</span>
+                <span>77.4%</span>
+            </div>
+            <div class="subtext">Higher Secondary School</div>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <span>Velammal Vidyalaya, Chennai</span>
+                <span>88.4%</span>
+            </div>
+            <div class="subtext">Secondary School</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Internships & Training</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Aavin</span>
+            </div>
+            <div class="subtext">Dairy and Food Processing Intern</div>
+            <ul>
+                <li>Assisted in dairy-processing operations including pasteurization, standardization, and packaging.
+                </li>
+                <li>Conducted MBRT, acidity, adulteration, and microbial testing adhering to FSSAI standards.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <span>Corizo</span>
+            </div>
+            <div class="subtext">Genetic Engineering Trainee</div>
+            <ul>
+                <li>Trained in PCR, restriction digestion, and gel electrophoresis.</li>
+                <li>Completed project modules covering gene modification and molecular data interpretation.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <span>Avigen</span>
+            </div>
+            <div class="subtext">In Vitro Bioassay Trainee</div>
+            <ul>
+                <li>Performed cytotoxicity and antimicrobial assays using standard in vitro methods.</li>
+                <li>Practiced sample preparation, assay optimization, and GLP-compliant laboratory workflows.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <span>Biotecnika</span>
+            </div>
+            <div class="subtext">Regulatory Affairs Trainee</div>
+            <ul>
+                <li>Studied global frameworks including USFDA, EMA, and CDSCO guidelines.</li>
+                <li>Analyzed case studies focused on IND, NDA, and post-marketing compliance procedures.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Phytochemical-Enriched Antimicrobial Wipes from Fruit Waste</span>
+            </div>
+            <p class="subtext" style="color: var(--text); margin-top: 4px;">
+                Developed sustainable antimicrobial wipes utilizing phytochemicals extracted from organic fruit waste,
+                with focus on antimicrobial assay validation.
+            </p>
+        </div>
+        <div class="item">
+            <div class="item-header">
+                <span>Role of ICH Guidelines in Global Drug Regulation</span>
+            </div>
+            <p class="subtext" style="color: var(--text); margin-top: 4px;">
+                Analyzed real-world applications of ICH Q-series (Quality) and E-series (Efficacy) guidelines in
+                harmonized drug development and market authorization.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <ul>
+            <li><strong>Dairy and Food Processing</strong> — NPTEL</li>
+            <li><strong>Medicinal Chemistry</strong> — NPTEL</li>
+            <li><strong>Gene Editing and Engineering</strong> — NPTEL</li>
+            <li><strong>Bioinformatics</strong> — Certification Course</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Conferences & Workshops</h2>
+        <ul>
+            <li>International Conference on Cutting-Edge Strategies in Epidemiology and Diagnostics of Infectious
+                Diseases</li>
+            <li>Workshop on Protein Purification and Animal Cell Culture</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>©️ 2026 Abinaya R · Hosted via GitHub Pages</p>
+    </footer>
+
+</body>
+
+</html>
